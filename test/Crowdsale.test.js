@@ -25,7 +25,7 @@ contract('ERC20TokenCrowdsale', function([_, wallet, investor1, investor2, found
   beforeEach(async function () {
     // Token config
     this.name = "ERC20Token";
-    this.symbol = "DAPP";
+    this.symbol = "ERC20";
     this.decimals = 18;
 
     // Deploy Token

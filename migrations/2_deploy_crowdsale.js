@@ -13,8 +13,8 @@ const duration = {
 };
 
 module.exports = async function(deployer, network, accounts) {
-  const _name = "Dapp Token";
-  const _symbol = "DAPP";
+  const _name = "ERC20 Token";
+  const _symbol = "ERC20";
   const _decimals = 18;
 
   await deployer.deploy(ERC20Token, _name, _symbol, _decimals);

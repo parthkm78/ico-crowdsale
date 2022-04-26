@@ -7,8 +7,8 @@ require('chai')
   .should();
 
 contract('ERC20Token', accounts => {
-  const _name = 'Dapp Token';
-  const _symbol = 'DAPP';
+  const _name = 'ERC20 Token';
+  const _symbol = 'ERC20';
   const _decimals = 18;
 
   beforeEach(async function () {
